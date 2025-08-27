@@ -1,0 +1,123 @@
+.bg-darkblue {
+  background-color: #0a2342 !important;
+  color: #fff !important;
+}
+
+.bg-darkblue:hover {
+  background-color: #06203b !important; 
+}
+
+.profil {
+  width: 50px;       
+  height: 50px;      
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.text-darkblue,
+.text-primary {
+  color: #0a2342 !important;
+}
+
+.btn.bg-darkblue {
+  transition: all 0.3s ease; 
+}
+
+.btn.bg-darkblue:hover {
+  transform: scale(1.05);     
+  filter: brightness(90%);
+}
+
+.hero-img {
+  height: 350px;
+  object-fit: cover;
+}
+
+.card-img-top {
+  height: 200px;       
+  object-fit: cover;   
+  width: 100%;         
+}
+
+.container-fasilitas {
+  background-color: #0a2342; 
+  color: white; 
+  border-radius: 10px;
+  padding: 30px;
+}
+
+#formPemesanan {
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+#formPemesanan .form-label {
+  font-weight: 600;
+  color: #0a2342;
+}
+
+#formPemesanan .form-control, 
+#formPemesanan .form-select {
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+#formPemesanan .form-control:focus, 
+#formPemesanan .form-select:focus {
+  border-color: #0a2342;
+  box-shadow: 0 0 6px rgba(10, 35, 66, 0.3);
+}
+
+#formPemesanan button {
+  background: #0a2342;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 25px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+#formPemesanan button:hover {
+  background: #123c73;
+  transform: translateY(-2px);
+}
+
+.modal-content {
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+}
+
+.modal-header {
+  background: #0a2342;
+  color: #fff;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.modal-title {
+  font-weight: 700;
+}
+
+.modal-footer .btn-success,
+.modal-footer .btn-danger {
+  border-radius: 25px;
+  padding: 8px 20px;
+  font-weight: 600;
+}
+
+#bank-section img {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 5px;
+  background: #fff;
+  transition: all 0.3s ease;
+}
+
+#bank-section img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
